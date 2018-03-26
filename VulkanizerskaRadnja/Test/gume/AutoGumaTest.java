@@ -1,4 +1,4 @@
-package gumeTest;
+package gume;
 
 import static org.junit.Assert.*;
 

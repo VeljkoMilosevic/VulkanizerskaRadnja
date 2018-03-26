@@ -42,7 +42,7 @@ public class AutoGuma {
 	
 	/**
 	 * Metoda koja imenuje ulazni parametar u naziv marke modela klase.
-	 * @param String koji predstavlja marku modela.
+	 * @param markaModel koji je String koji predstavlja marku modela gume.
 	 * @throws java.lang.RuntimeException
 	 *             izuzetak se pojavljuje u slucaju da je ulazni parametar
 	 *             <ul>
@@ -66,7 +66,7 @@ public class AutoGuma {
 	
 	/**
 	 * Metoda koja imenuje ulazni parametar u atribut precnik klase.
-	 * @param Celobrojna vrednost koja predstavlja precnik.
+	 * @param precnik koji je celobrojna vrednost koja predstavlja precnik gume.
 	 * @throws java.lang.RuntimeException
 	 *             izuzetak se pojavljuje u slucaju da je ulazna celobrojna vrednost
 	 *             <ul>
@@ -91,7 +91,7 @@ public class AutoGuma {
 	
 	/**
 	 * Metoda koja imenuje ulazni parametar u atribut sirinu klase.
-	 * @param Celobrojna vrednost koja predstavlja sirinu.
+	 * @param sirina koja je celobrojna vrednost koja predstavlja sirinu gume.
 	 *  @throws java.lang.RuntimeException
 	 *             izuzetak se pojavljuje u slucaju da je ulazna celobrojna vrednost
 	 *             <ul>
@@ -118,7 +118,7 @@ public class AutoGuma {
 
 	/**
 	 * Metoda koja imenuje ulazni parametar u atribut visina klase.
-	 * @param Celobrojna vrednost koja predstavlja visinu.
+	 * @param visina je celobrojna vrednost koja predstavlja visinu gume.
 	 * @throws java.lang.RuntimeException
 	 *             izuzetak se pojavljuje u slucaju da je ulazna celobrojna vrednost
 	 *             <ul>
@@ -143,10 +143,11 @@ public class AutoGuma {
 	}
 	
 	/**
-	 * 	Metoda koja provera da li su dva objekta, od
+	 * 	Metoda koja provera da li su  dva objekta, od
 	 *  kojih je bar jedan objekat klase AutoGuma, jednaki.
-	 *  @param Ulazni parametar je neki objekat.
-	 *  @return Metoda vraca true ako su objekti jednaki a false ako nisu.
+	 *  @param obj koji je neki objekat.
+	 *  @return Metoda vraca true ako su atributi markaModel, precnik, sirina i visina jednaki.
+     *  Ako se objekti razlikuju bar po jednom atributu, metoda vraca false.
 	 */
 	@Override
 	public boolean equals(Object obj) {
