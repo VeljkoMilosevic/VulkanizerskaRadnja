@@ -10,7 +10,7 @@ package gume;
  */
 public class AutoGuma {
 	
-	
+	 //
 	/**
 	 * Atribut string koji prestavlja marku modela
 	 */
